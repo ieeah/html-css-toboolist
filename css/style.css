@@ -21,7 +21,7 @@ Delete: &#9587; #ee756d */
 
 /* TEXT RESET */
 * {
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
     color: #051931;
 }
 
@@ -36,7 +36,7 @@ body {
 
 
 /* header */
-header {
+#general_header {
     width: 100%;
     background-color: #dedede;
     height: 150px;
@@ -85,3 +85,72 @@ main {
     background-color: transparent;
 }
 
+/* CATEGORY SECTIONS */
+
+.category {
+    margin: 50px 0;
+}
+
+.item {
+    margin: 15px 0;
+}
+
+.item_description {
+    font-weight: 500;
+}
+
+.check {
+    color: #67c1ab;
+    border: 2px solid #67c1ab;
+}
+
+.delete {
+    color: #ee756d;
+    border: 2px solid #ee756d;
+}
+
+.entity {
+    padding: 4px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.cat_title {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* item labels */
+
+.item_label {
+    padding: 6px 10px;
+    border-radius: 12px;
+    color: white;
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+.editorial {
+    background-color: #47adf1;
+}
+
+.Q1 {
+    background-color: #9c72e4;
+}
+
+.recruit {
+    background-color: #64c0a9;
+}
+
+.mobile {
+    background-color: #f29e33;
+}
+
+.website {
+    background-color: #d863a1;
+}
+
+.sales {
+    background-color: #b0c926;
+}
