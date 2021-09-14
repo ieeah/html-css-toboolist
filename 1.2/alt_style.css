@@ -1,0 +1,166 @@
+/* UTILITIES */
+
+/* HTML entities
+Triangle Down: &blacktriangledown;  #051931
+Check: &check; #67c1ab
+Delete: &#9587; #ee756d */
+
+/* COLORS */
+
+/* button color #47adf1 */
+/* label colors #9c72e4 #64c0a9 #f29e33 #d863a1 #b0c926 */
+
+
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* TEXT RESET */
+* {
+    font-family: 'Nunito', sans-serif;
+    color: #051931;
+    font-weight: 600;
+}
+
+
+/* GENERAL */
+
+body {
+    /* background-color: #e3e3e3; */
+}
+
+/* SECTIONS */
+
+
+/* header */
+#general_header {
+    width: 100%;
+    background-color: #dedede;
+    height: 150px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#general_header > img {
+    width: 100px;
+    vertical-align: middle;
+    margin: 25px 5px 25px 25px;
+}
+
+#general_header > span {
+    font-weight: bolder;
+}
+
+/* main */
+
+main {
+    width: 45%;
+    height: 800px;
+    margin: 30px auto;
+    /* background-color: lightpink; */
+
+}
+
+/* actions section */
+
+.actions {
+    margin-bottom: 25px;
+}
+
+.action_bt {
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-size: 12px;
+    margin: 0 20px 20px 0;
+}
+
+#new_task {
+    background-color: #47adf1;
+    border: 0px solid black;
+    color: white;
+}
+
+#new_section {
+    border: 1px solid #b0b0b0;
+    color: #b0b0b0;
+    background-color: transparent;
+}
+
+/* CATEGORY SECTIONS */
+
+.category {
+    margin: 50px 0;
+}
+
+.item {
+    margin: 15px 0;
+}
+
+.item_description {
+    font-weight: 500;
+}
+
+.check {
+    color: #67c1ab;
+    border: 2px solid #67c1ab;
+}
+
+.delete {
+    color: #ee756d;
+    border: 2px solid #ee756d;
+}
+
+.entity {
+    padding: 5px;
+    text-align: center;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    font-size: 8px;
+    border-radius: 70px;
+    margin-right: 10px;
+}
+
+.cat_title {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* item labels */
+
+.item_label {
+    padding: 6px 10px;
+    border-radius: 12px;
+    color: white;
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+.editorial {
+    background-color: #47adf1;
+}
+
+.Q1 {
+    background-color: #9c72e4;
+}
+
+.recruit {
+    background-color: #64c0a9;
+}
+
+.mobile {
+    background-color: #f29e33;
+}
+
+.website {
+    background-color: #d863a1;
+}
+
+.sales {
+    background-color: #b0c926;
+}

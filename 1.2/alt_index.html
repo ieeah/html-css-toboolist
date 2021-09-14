@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ToBooList</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet"> 
+    </head>
+
+
+    <body>
+        <!-- full width header -->
+        <header id="general_header">
+            <img src="./img/Logo.png" alt="Logo Boolean">
+            <span>ToBooList</span>
+        </header>
+
+
+        <!-- centered container -->
+        <main>
+            <!-- actions section -->
+            <section class="actions">
+                <button class="action_bt" id="new_task">Add Task</button>
+                <button class="action_bt" id="new_section">Add Section</button>
+            </section>
+
+            <!-- all tasks categories -->
+            <section class="tasks">
+
+                <!-- new task section -->
+                <section class="category">
+                    <header>
+                        <span>&blacktriangledown;</span>
+                        <h5 class="cat_title">New tasks</h5>
+                    </header>
+                    <section class="item">
+                        <span class="check entity">&check;</span>
+                        <span class="item_description">Quarterly Newsletter</span>
+                        <span class="item_label editorial">Editorial</span>
+                    </section>
+                </section>
+
+                <!-- today tasks -->
+                <section class="category">
+                    <header>
+                        <span>&blacktriangledown;</span>
+                        <h5 class="cat_title">Today</h5>
+                    </header>
+                    <section class="item">
+                        <span class="check entity">&check;</span>
+                        <span class="item_description">Recruiting Blog Post</span>
+                        <span class="item_label editorial">Editorial</span>
+                    </section>
+                    <section class="item">
+                        <span class="check entity">&check;</span>
+                        <span class="item_description">Mobile App Launch</span>
+                        <span class="item_label Q1">Q1 Goals</span>
+                    </section>
+                    <section class="item">
+                        <span class="delete entity">&#9587;</span>
+                        <span class="item_description">Interview John H</span>
+                        <span class="item_label recruit">Recruiting</span>
+                    </section>
+                    <section class="item">
+                        <span class="check entity">&check;</span>
+                        <span class="item_description">Summit update to mobile storefront</span>
+                        <span class="item_label mobile">Mobile</span>
+                    </section>
+                </section>
+
+                <!-- upcoming tasks -->
+                <section class="category">
+                    <header>
+                        <span>&blacktriangledown;</span>
+                        <h5 class="cat_title">Upcoming</h5>
+                    </header>
+                    <section class="item">
+                        <span class="delete entity">&#9587;</span>
+                        <span class="item_description">Schedule Meeting with Alex</span>
+                    </section>
+                    <section class="item">
+                        <span class="check entity">&check;</span>
+                        <span class="item_description">Homepage Refresh</span>
+                        <span class="item_label website">Website</span>
+                    </section>
+                    <section class="item">
+                        <span class="check entity">&check;</span>
+                        <span class="item_description">Onboard new sales team members</span>
+                        <span class="item_label sales">Sales</span>
+                    </section>
+                    <section class="item">
+                        <span class="check entity">&check;</span>
+                        <span class="item_description">Review Editorial calendar</span>
+                        <span class="item_label editorial">Editorial</span>
+                    </section>
+                </section>
+
+            </section>
+
+        </main>
+
+        
+    </body>
+</html>
