@@ -23,6 +23,7 @@ Delete: &#9587; #ee756d */
 * {
     font-family: 'Nunito', sans-serif;
     color: #051931;
+    font-weight: 600;
 }
 
 
@@ -44,10 +45,14 @@ body {
     font-weight: 600;
 }
 
-header > img {
+#general_header > img {
     width: 100px;
     vertical-align: middle;
     margin: 25px 5px 25px 25px;
+}
+
+#general_header > span {
+    font-weight: bolder;
 }
 
 /* main */
@@ -110,7 +115,12 @@ main {
 }
 
 .entity {
-    padding: 4px;
+    padding: 5px;
+    text-align: center;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    font-size: 8px;
     border-radius: 50%;
     margin-right: 10px;
 }
