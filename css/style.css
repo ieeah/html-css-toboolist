@@ -1,0 +1,40 @@
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* TEXT RESET */
+* {
+    font-family: sans-serif;
+}
+
+/* utilities */
+
+/* HTML entities
+Triangle Down: &blacktriangledown;
+Check: &check;
+Delete: &#9587; */
+
+/* GENERAL */
+
+body {
+    background-color: #e3e3e3;
+}
+
+header {
+    width: 100%;
+    background-color: #dedede;
+    height: 150px;
+    color: #051931;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+header > img {
+    width: 100px;
+    vertical-align: middle;
+    margin: 25px 5px 25px 25px;
+}
