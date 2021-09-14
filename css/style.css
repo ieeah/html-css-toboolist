@@ -1,3 +1,16 @@
+/* UTILITIES */
+
+/* HTML entities
+Triangle Down: &blacktriangledown;  #051931
+Check: &check; #67c1ab
+Delete: &#9587; #ee756d */
+
+/* COLORS */
+
+/* button color #47adf1 */
+/* label colors #9c72e4 #64c0a9 #f29e33 #d863a1 #b0c926 */
+
+
 /* CSS RESET */
 
 * {
@@ -9,26 +22,24 @@
 /* TEXT RESET */
 * {
     font-family: sans-serif;
+    color: #051931;
 }
 
-/* utilities */
-
-/* HTML entities
-Triangle Down: &blacktriangledown;
-Check: &check;
-Delete: &#9587; */
 
 /* GENERAL */
 
 body {
-    background-color: #e3e3e3;
+    /* background-color: #e3e3e3; */
 }
 
+/* SECTIONS */
+
+
+/* header */
 header {
     width: 100%;
     background-color: #dedede;
     height: 150px;
-    color: #051931;
     font-size: 35px;
     font-weight: 600;
 }
@@ -38,3 +49,39 @@ header > img {
     vertical-align: middle;
     margin: 25px 5px 25px 25px;
 }
+
+/* main */
+
+main {
+    width: 45%;
+    height: 800px;
+    margin: 30px auto;
+    /* background-color: lightpink; */
+
+}
+
+/* actions section */
+
+.actions {
+    margin-bottom: 25px;
+}
+
+.action_bt {
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-size: 12px;
+    margin: 0 20px 20px 0;
+}
+
+#new_task {
+    background-color: #47adf1;
+    border: 0px solid black;
+    color: white;
+}
+
+#new_section {
+    border: 1px solid #b0b0b0;
+    color: #b0b0b0;
+    background-color: transparent;
+}
+
